@@ -24,12 +24,18 @@
     <ClCompile Include="QuickUnion.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="QuickUnionWeighted.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuickFind.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="QuickUnion.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickUnionWeighted.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

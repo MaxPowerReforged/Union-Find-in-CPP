@@ -2,10 +2,11 @@
 #include <vector>
 
 class QuickUnion {
-private:
+protected:
 	std::vector<int> arr;
 
 public:
+	typedef QuickUnion super;
 	QuickUnion(int n);
 	bool Connected(int p, int q);
 	int Root(int p);
